@@ -157,8 +157,8 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="heading">
-          Your Trusted Partner in Financial Excellence
+        <h2 className="heading text-center">
+          Your Trusted Partner in <br />Financial Excellence
         </h2>
       </section>
     </main>
