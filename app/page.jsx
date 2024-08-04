@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Button from "./components/Button";
+import {
+  Book1,
+  CardPos,
+  DocumentText,
+  PercentageCircle,
+  WalletSearch,
+} from "iconsax-react";
 
 export default function Home() {
   return (
@@ -18,15 +25,15 @@ export default function Home() {
             Our Expertise, <br />
             Your Success
           </h1>
-          <div className="grid lg:gap-7 gap-5 pl-4 lg:pl-10 border-l-2 border-[#c70e10]">
-            <p className="text-white bodyText">
+          <div className="grid lg:gap-7 gap-5 lg:pl-10 lg:border-l-2 border-[#c70e10]">
+            <p className="text-white bodyText pl-5 lg:pl-0 lg:border-l-0 border-l-2 border-[#c70e10]">
               Empowering your financial decisions with <br />
               precision and integrity.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-5">
               <Button
                 text="Contact us"
-                className="bg-[#c70e10] justify-center w-full lg:justify-start font-clashmd lg:w-fit text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
+                className="bg-primary justify-center w-full lg:justify-start font-clashmd lg:w-fit text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
                 icon={true}
               />
               <Button
@@ -37,18 +44,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="mx-[3%] py-32 flex items-center gap-10">
+      <section className="mx-[3%] py-32 flex items-center flex-col-reverse lg:flex-row gap-10">
         <div className="basis-1/2">
           <Image
-            className="lg:rounded-3xl h-[500px] object-cover"
+            className="rounded-2xl lg:rounded-3xl h-[350px] lg:h-[500px] object-cover"
             src="/about2.jpg"
             width={700}
             height={2000}
             alt="hero image"
           />
         </div>
-        <div className="basis-1/2 grid gap-3">
-          <h2 className="text-3xl font-clashsm border-l-[4px] border-[#c70e10] pl-6">
+        <div className="basis-1/2 grid gap-7 lg:gap-3">
+          <h2 className="heading border-l-2 border-[#c70e10] pl-6">
             Discover Excellence <br /> with OGE Professional Services
           </h2>
           <p className="text-lg">
@@ -63,6 +70,90 @@ export default function Home() {
             and tax advisory, ensuring that every aspect of your financial
             health is meticulously managed.
           </p>
+        </div>
+      </section>
+      <section className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-10 lg:gap-y-16 grid lg:grid-cols-3">
+        <div className="grid gap-10 lg:gap-0">
+          <h2 className="heading">
+            Services Tailored <br /> to Your Needs
+          </h2>
+          <Button
+            text="See all"
+            icon={true}
+            className="bg-primary lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 max-w-[180px] lg:max-w-[200px]"
+          />
+        </div>
+        <div className="w-full lg:max-w-[500px] mx-[2%] lg:mx-0 rotate-[-5deg] grid gap-5 shadow-sm rounded-2xl bg-primary h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <DocumentText size="48" color="white" variant="Broken" />
+            <h3 className="text-base lg:text-2xl font-clashmd text-white">
+              Statutory Audit
+            </h3>
+          </div>
+          <div>
+            <p className="text-xs lg:text-lg text-white">
+              Ensure compliance with regulatory requirements through
+              comprehensive statutory audits, providing you with peace of mind
+              and confidence in your financial statements.
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:max-w-[500px] grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <Book1 size="75" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl font-clashmd">
+              Bookkeeping and Accounting Services
+            </h3>
+          </div>
+          <div>
+            <p className="text-xs lg:text-lg">
+              Streamline your financial operations with our expert bookkeeping
+              and accounting services, ensuring accuracy and efficiency in your
+              financial records.
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:max-w-[500px] grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <CardPos size="48" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl font-clashmd">
+              Payroll Preparation Services
+            </h3>
+          </div>
+          <div>
+            <p className="text-xs lg:text-lg">
+              Simplify your payroll processes with our reliable and efficient
+              payroll preparation services, ensuring accuracy and compliance.
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:max-w-[500px] grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <WalletSearch size="48" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl font-clashmd">
+              Forensic Accounting Services
+            </h3>
+          </div>
+          <div>
+            <p className="text-xs lg:text-lg">
+              Detect and prevent fraud with our specialized forensic accounting
+              services, providing you with robust protection against financial
+              misconduct.
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:max-w-[500px] grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <PercentageCircle size="48" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl font-clashmd">Tax Planning</h3>
+          </div>
+          <div>
+            <p className="text-xs lg:text-lg">
+              Optimize your tax strategy with our comprehensive tax planning,
+              advisory, filing, and compliance services, ensuring you meet all
+              regulatory requirements.
+            </p>
+          </div>
         </div>
       </section>
     </main>

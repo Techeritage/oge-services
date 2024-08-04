@@ -9,5 +9,9 @@
 }
 
 .bodyText {
-  @apply text-sm lg:font-clashmd lg:text-lg
+  @apply text-sm lg:font-clashmd lg:text-lg;
+}
+
+.heading {
+  @apply text-3xl font-clashmd;
 }
