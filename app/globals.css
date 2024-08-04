@@ -13,5 +13,5 @@
 }
 
 .heading {
-  @apply text-3xl font-clashmd;
+  @apply text-3xl lg:text-4xl font-clashmd lg:font-clashsm lg:opacity-90;
 }

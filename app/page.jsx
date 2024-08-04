@@ -155,10 +155,17 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <Button
+          text="See all"
+          icon={true}
+          className="bg-primary lg:hidden mx-auto lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 min-w-[180px] lg:max-w-[200px]"
+        />
       </section>
-      <section>
-        <h2 className="heading text-center">
-          Your Trusted Partner in <br />Financial Excellence
+      <section className="py-20 px-[3%]">
+        <h2 className="heading text-center relative">
+          Your Trusted Partner in <br />
+          Financial Excellence
+          <span className="absolute top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
         </h2>
       </section>
     </main>
