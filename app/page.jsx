@@ -74,7 +74,7 @@ export default function Home() {
       </section>
       <section className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-7 lg:gap-y-16 grid lg:grid-cols-3">
         <div className="grid gap-10 lg:gap-0">
-          <h2 className="heading">
+          <h2 className="heading text-center lg:text-start mb-10 lg:mb-0">
             Services Tailored <br /> to Your Needs
           </h2>
           <Button
