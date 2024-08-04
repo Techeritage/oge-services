@@ -58,7 +58,7 @@ export default function Home() {
           <h2 className="heading border-l-2 border-[#c70e10] pl-6">
             Discover Excellence <br /> with OGE Professional Services
           </h2>
-          <p className="text-lg">
+          <p className="text-sm lg:text-lg">
             At OGE Professional Services, we are committed to delivering
             excellence in financial and business management. With a team of
             seasoned professionals, we provide a comprehensive range of services
@@ -72,7 +72,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-10 lg:gap-y-16 grid lg:grid-cols-3">
+      <section className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-7 lg:gap-y-16 grid lg:grid-cols-3">
         <div className="grid gap-10 lg:gap-0">
           <h2 className="heading">
             Services Tailored <br /> to Your Needs
@@ -80,10 +80,10 @@ export default function Home() {
           <Button
             text="See all"
             icon={true}
-            className="bg-primary lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 max-w-[180px] lg:max-w-[200px]"
+            className="bg-primary hidden  lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white lg:flex rounded-full items-center py-3 px-4 max-w-[180px] lg:max-w-[200px]"
           />
         </div>
-        <div className="w-full lg:max-w-[500px] mx-[2%] lg:mx-0 rotate-[-5deg] grid gap-5 shadow-sm rounded-2xl bg-primary h-[300px] p-10">
+        <div className="w-full lg:max-w-[500px] lg:mx-0 rotate-[-2deg] lg:rotate-[-5deg] grid gap-5 shadow-sm rounded-2xl bg-primary h-[300px] p-10">
           <div className="flex items-center gap-4">
             <DocumentText size="48" color="white" variant="Broken" />
             <h3 className="text-base lg:text-2xl font-clashmd text-white">
@@ -91,7 +91,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <p className="text-xs lg:text-lg text-white">
+            <p className="text-sm lg:text-lg text-white">
               Ensure compliance with regulatory requirements through
               comprehensive statutory audits, providing you with peace of mind
               and confidence in your financial statements.
@@ -106,7 +106,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <p className="text-xs lg:text-lg">
+            <p className="text-sm lg:text-lg">
               Streamline your financial operations with our expert bookkeeping
               and accounting services, ensuring accuracy and efficiency in your
               financial records.
@@ -121,7 +121,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <p className="text-xs lg:text-lg">
+            <p className="text-sm lg:text-lg">
               Simplify your payroll processes with our reliable and efficient
               payroll preparation services, ensuring accuracy and compliance.
             </p>
@@ -135,7 +135,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <p className="text-xs lg:text-lg">
+            <p className="text-sm lg:text-lg">
               Detect and prevent fraud with our specialized forensic accounting
               services, providing you with robust protection against financial
               misconduct.
@@ -148,13 +148,18 @@ export default function Home() {
             <h3 className="text-base lg:text-2xl font-clashmd">Tax Planning</h3>
           </div>
           <div>
-            <p className="text-xs lg:text-lg">
+            <p className="text-sm lg:text-lg">
               Optimize your tax strategy with our comprehensive tax planning,
               advisory, filing, and compliance services, ensuring you meet all
               regulatory requirements.
             </p>
           </div>
         </div>
+      </section>
+      <section>
+        <h2 className="heading">
+          Your Trusted Partner in Financial Excellence
+        </h2>
       </section>
     </main>
   );
