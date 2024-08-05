@@ -4,7 +4,10 @@ import {
   Book1,
   CardPos,
   DocumentText,
+  LampCharge,
+  MedalStar,
   PercentageCircle,
+  Profile2User,
   WalletSearch,
 } from "iconsax-react";
 
@@ -50,7 +53,7 @@ export default function Home() {
             className="rounded-2xl lg:rounded-3xl h-[350px] lg:h-[500px] object-cover"
             src="/about2.jpg"
             width={700}
-            height={2000}
+            height={500}
             alt="hero image"
           />
         </div>
@@ -167,6 +170,179 @@ export default function Home() {
           Financial Excellence
           <span className="absolute top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
         </h2>
+        <div className="relative flex flex-col lg:flex-row justify-end mt-16">
+          <Image
+            className="rounded-2xl lg:rounded-3xl object-cover"
+            src="/about3.jpg"
+            width={800}
+            height={2000}
+            alt="hero image"
+          />
+          <div className="lg:absolute mt-[-50px] lg:mt-0 flex flex-col items-center lg:flex-row gap-7 left-0 lg:bottom-20">
+            <div className="rounded-2xl border bg-white grid gap-3 shadow-md max-w-[95%] lg:max-w-[350px] px-5 py-10">
+              <LampCharge size="42" color="#c70e10" variant="Broken" />
+              <h3 className="text-base lg:text-2xl font-clashmd">
+                Comprehensive <br />
+                Solutions
+              </h3>
+              <p className="text-sm lg:text-lg">
+                Our wide range of services ensures all your financial needs are
+                covered, from bookkeeping and audits to business recovery and
+                tax planning.
+              </p>
+            </div>
+            <div className="rounded-2xl border bg-white grid gap-3 shadow-md max-w-[95%] lg:max-w-[350px] px-5 py-10">
+              <Profile2User size="42" color="#c70e10" variant="Broken" />
+              <h3 className="text-base lg:text-2xl font-clashmd">
+                Expertise <br />
+                You Can Trust
+              </h3>
+              <p className="text-sm lg:text-lg">
+                With a team of seasoned professionals, we provide expert advice
+                and solutions tailored to your specific business requirements,
+                ensuring accuracy and compliance.
+              </p>
+            </div>
+            <div className="rounded-2xl border bg-white grid gap-3 shadow-md max-w-[95%] lg:max-w-[350px] px-5 py-10">
+              <MedalStar size="42" color="#c70e10" variant="Broken" />
+              <h3 className="text-base lg:text-2xl font-clashmd">
+                Client-Centric <br />
+                Approach
+              </h3>
+              <p className="text-sm lg:text-lg">
+                We prioritize your success, offering personalized services and
+                proactive support to help you achieve your financial goals and
+                drive business growth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-20 px-[3%]">
+        <h2 className="heading text-center relative">
+          Meet Our Expert Team
+          <span className="absolute top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
+        </h2>
+        <div className="mt-14 grid md:grid-cols-3 lg:grid-cols-4 gap-3 gap-y-10 lg:gap-5">
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot1.jpg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Prof. Godwin Oyedokun
+            </p>
+            <p className="lg:text-base text-xs">Founder/Principal Partner</p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot2.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Dr. Titilayo Fowokan
+            </p>
+            <p className="lg:text-base text-xs">
+              Partner- Tax and Forensics Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot3.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Dr. Emeke Nwabuzor
+            </p>
+            <p className="lg:text-base text-xs">
+              Partner- Audit and Tax Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot5.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Mrs. Mulikat Adeyemi
+            </p>
+            <p className="lg:text-base text-xs">
+              Senior Managers, Audit, Investigation and Forensic Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot4.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Mayowa Oyedokun
+            </p>
+            <p className="lg:text-base text-xs">
+              Manager- Research and Technical Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot6.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Diai David
+            </p>
+            <p className="lg:text-base text-xs">
+              Officer- Research and Technical Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot7.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Temitayo Adesumboye
+            </p>
+            <p className="lg:text-base text-xs">
+              Manager- Regulatory Services and Compliance
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
+              src="/mot8.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Sunday Ighaede,
+            </p>
+            <p className="lg:text-base text-xs">
+              Manager- Research and Technical Services
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   );
