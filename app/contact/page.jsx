@@ -3,13 +3,13 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <main className="px-[3%] pb-20">
+    <main className="px-[3%] pb-20 min-h-[100vh]">
       <h2 className="headingBig py-10">
         Financial Solutions <br /> Made{" "}
         <span className="text-primary">Efficient</span> <br /> and{" "}
         <span className="text-primary">Effective</span>.
       </h2>
-      <section className="grid gap-28 ">
+      <section className="grid gap-16 lg:gap-28 ">
         <div className="grid gap-5">
           <div className="grid gap-1">
             <h3 className="bodyText font-clashmd text-primary">Call us</h3>

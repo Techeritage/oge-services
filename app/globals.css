@@ -17,5 +17,5 @@
 }
 
 .headingBig {
-  @apply text-5xl lg:text-[69px] font-clashmd max-w-[90%] lg:max-w-[921px] lg:leading-[80px];
+  @apply text-4xl lg:text-[69px] font-clashmd max-w-[90%] lg:max-w-[921px] lg:leading-[80px];
 }

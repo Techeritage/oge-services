@@ -35,14 +35,14 @@ export default function Home() {
               precision and integrity.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-5">
-              <Link href="/contact">
+              <Link className="w-full lg:w-fit" href="/contact">
                 <Button
                   text="Contact us"
                   className="bg-primary justify-center w-full lg:justify-start font-clashmd lg:w-fit text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
                   icon={true}
                 />
               </Link>
-              <Link href="/services">
+              <Link className="w-full lg:w-fit" href="/services">
                 <Button
                   text="Browse all services"
                   className="bg-white font-clashmd justify-center lg:justify-start w-full lg:w-fit text-base text-black gap-1 flex rounded-full items-center py-3 px-5"
