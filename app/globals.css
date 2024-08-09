@@ -15,3 +15,7 @@
 .heading {
   @apply text-3xl lg:text-4xl font-clashmd lg:font-clashsm lg:opacity-90;
 }
+
+.headingBig {
+  @apply text-5xl lg:text-[69px] font-clashmd max-w-[90%] lg:max-w-[921px] lg:leading-[80px];
+}

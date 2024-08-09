@@ -10,6 +10,7 @@ import {
   Profile2User,
   WalletSearch,
 } from "iconsax-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,15 +35,19 @@ export default function Home() {
               precision and integrity.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-5">
-              <Button
-                text="Contact us"
-                className="bg-primary justify-center w-full lg:justify-start font-clashmd lg:w-fit text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
-                icon={true}
-              />
-              <Button
-                text="Browse all services"
-                className="bg-white font-clashmd justify-center lg:justify-start w-full lg:w-fit text-base text-black gap-1 flex rounded-full items-center py-3 px-5"
-              />
+              <Link href="/contact">
+                <Button
+                  text="Contact us"
+                  className="bg-primary justify-center w-full lg:justify-start font-clashmd lg:w-fit text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
+                  icon={true}
+                />
+              </Link>
+              <Link href="/services">
+                <Button
+                  text="Browse all services"
+                  className="bg-white font-clashmd justify-center lg:justify-start w-full lg:w-fit text-base text-black gap-1 flex rounded-full items-center py-3 px-5"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -80,11 +85,13 @@ export default function Home() {
           <h2 className="heading text-center lg:text-start mb-10 lg:mb-0">
             Services Tailored <br /> to Your Needs
           </h2>
-          <Button
-            text="See all"
-            icon={true}
-            className="bg-primary hidden  lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white lg:flex rounded-full items-center py-3 px-4 max-w-[180px] lg:max-w-[200px]"
-          />
+          <Link href="services">
+            <Button
+              text="See all"
+              icon={true}
+              className="bg-primary hidden  lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white lg:flex rounded-full items-center py-3 px-4 max-w-[180px] lg:max-w-[200px]"
+            />
+          </Link>
         </div>
         <div className="w-full lg:max-w-[500px] lg:mx-0 rotate-[-2deg] lg:rotate-[-5deg] grid gap-5 shadow-sm rounded-2xl bg-primary h-[300px] p-10">
           <div className="flex items-center gap-4">
@@ -158,11 +165,13 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Button
-          text="See all"
-          icon={true}
-          className="bg-primary lg:hidden mx-auto lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 min-w-[180px] lg:max-w-[200px]"
-        />
+        <Link href="/services">
+          <Button
+            text="See all"
+            icon={true}
+            className="bg-primary lg:hidden mx-auto lg:mt-[-80px] h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 min-w-[180px] lg:max-w-[200px]"
+          />
+        </Link>
       </section>
       <section className="py-20 px-[3%]">
         <h2 className="heading text-center relative">
