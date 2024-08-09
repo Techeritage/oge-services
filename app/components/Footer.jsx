@@ -43,7 +43,7 @@ export default function Footer() {
           >
             Contact Us
           </Link>
-          <h2 className="heading text-white">
+          <h2 className="heading text-white w-[85%]">
             Ready to take the next step in managing your finances?
           </h2>
           <div>
