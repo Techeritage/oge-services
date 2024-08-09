@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function ServicesPage() {
   return (
-    <div>
+    <main className='min-h-[100vh]'>
       
-    </div>
+    </main>
   )
 }

@@ -6,7 +6,7 @@ import Button from "./Button";
 const NavLinks = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/about" },
-  { title: "Services", link: "/contact" },
+  { title: "Services", link: "/services" },
 ];
 
 export default function Header() {
