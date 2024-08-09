@@ -3,10 +3,19 @@ import {
   Book1,
   CardPos,
   DocumentText,
+  DocumentText1,
+  HeartSearch,
   LampCharge,
   MedalStar,
+  PenAdd,
+  People,
   PercentageCircle,
   Profile2User,
+  SearchNormal1,
+  Setting2,
+  ShieldSearch,
+  ShieldTick,
+  StatusUp,
   WalletSearch,
 } from "iconsax-react";
 
@@ -27,7 +36,7 @@ export default function ServicesPage() {
       <section className="pt-28 pb-20 lg:gap-7 gap-7 lg:gap-y-16 grid lg:grid-cols-2">
         <div className="w-full lg:mx-0 rotate-[-2deg] lg:rotate-[-5deg] grid gap-5 rounded-2xl bg-primary h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <DocumentText size="48" color="white" variant="Broken" />
+            <DocumentText size="50" color="white" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd text-white">
               Statutory Audit
             </h3>
@@ -42,7 +51,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <Book1 size="75" color="#c70e10" variant="Broken" />
+            <Book1 size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Bookkeeping and Accounting Services
             </h3>
@@ -57,7 +66,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <CardPos size="48" color="#c70e10" variant="Broken" />
+            <CardPos size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Payroll Preparation Services
             </h3>
@@ -71,7 +80,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <WalletSearch size="48" color="#c70e10" variant="Broken" />
+            <WalletSearch size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Forensic Accounting Services
             </h3>
@@ -86,8 +95,10 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <PercentageCircle size="48" color="#c70e10" variant="Broken" />
-            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">Tax Planning</h3>
+            <PercentageCircle size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Tax Planning
+            </h3>
           </div>
           <div>
             <p className="text-sm lg:text-lg">
@@ -99,7 +110,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <Book1 size="75" color="#c70e10" variant="Broken" />
+            <ShieldTick size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Assurance Engagement
             </h3>
@@ -115,7 +126,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <CardPos size="48" color="#c70e10" variant="Broken" />
+            <StatusUp size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Business Recovery, Turnaround, and Receivership
             </h3>
@@ -131,7 +142,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <WalletSearch size="48" color="#c70e10" variant="Broken" />
+            <PenAdd size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Company Secretaryship
             </h3>
@@ -147,7 +158,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <PercentageCircle size="48" color="#c70e10" variant="Broken" />
+            <Setting2 size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Financial Control and Business Management Services
             </h3>
@@ -161,10 +172,9 @@ export default function ServicesPage() {
             </p>
           </div>
         </div>
-        {/** */}
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <Book1 size="75" color="#c70e10" variant="Broken" />
+            <HeartSearch size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Financial Health Check
             </h3>
@@ -180,7 +190,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <CardPos size="48" color="#c70e10" variant="Broken" />
+            <ShieldSearch size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Fraud and Forensic Audit
             </h3>
@@ -196,7 +206,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <WalletSearch size="48" color="#c70e10" variant="Broken" />
+            <SearchNormal1 size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Fraud and Forensic Investigation
             </h3>
@@ -212,7 +222,7 @@ export default function ServicesPage() {
         </div>
         <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
           <div className="flex items-center gap-4">
-            <PercentageCircle size="48" color="#c70e10" variant="Broken" />
+            <PercentageCircle size="50" color="#c70e10" variant="Broken" />
             <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
               Fraud Risk Management
             </h3>
@@ -222,6 +232,86 @@ export default function ServicesPage() {
               Protect your business with our fraud risk management services. We
               help you identify potential fraud risks and implement effective
               controls to minimize the impact of fraud on your organization.
+            </p>
+          </div>
+        </div>
+        {/** */}
+        <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <ShieldTick size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Internal Control and Audit Services and Outsourcing
+            </h3>
+          </div>
+          <div>
+            <p className="text-sm lg:text-lg">
+              Strengthen your internal controls with our audit and outsourcing
+              services. We assess your current systems, identify weaknesses, and
+              provide recommendations to improve your control environment and
+              reduce risks.
+            </p>
+          </div>
+        </div>
+        <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <LampCharge size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Management Consultancy Services
+            </h3>
+          </div>
+          <div>
+            <p className="text-sm lg:text-lg">
+              Our management consultancy services offer strategic insights to
+              drive your business forward. We assist with business planning,
+              process optimization, and performance improvement to help you
+              achieve your organizational goals.
+            </p>
+          </div>
+        </div>
+        <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <DocumentText1 size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Regulatory and Advisory Services
+            </h3>
+          </div>
+          <div>
+            <p className="text-sm lg:text-lg">
+              Navigate complex regulations with our regulatory and advisory
+              services. We provide expert advice on compliance matters and help
+              you stay up-to-date with changing laws and industry standards.
+            </p>
+          </div>
+        </div>
+        <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <People size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Staff Outsourcing
+            </h3>
+          </div>
+          <div>
+            <p className="text-sm lg:text-lg">
+              Our staff outsourcing services offer flexible staffing solutions
+              to meet your business needs. Whether you require temporary or
+              permanent staff, we provide skilled professionals to support your
+              operations.
+            </p>
+          </div>
+        </div>
+        <div className="w-full border grid gap-5 shadow-sm rounded-2xl bg-white h-[300px] p-10">
+          <div className="flex items-center gap-4">
+            <Book1 size="50" color="#c70e10" variant="Broken" />
+            <h3 className="text-base lg:text-2xl lg:max-w-[70%] font-clashmd">
+              Training
+            </h3>
+          </div>
+          <div>
+            <p className="text-sm lg:text-lg">
+              Enhance your team's capabilities with our training services. We
+              offer specialized training programs in finance, compliance, and
+              management, designed to empower your employees with the skills
+              they need to excel.
             </p>
           </div>
         </div>
