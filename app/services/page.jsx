@@ -6,11 +6,9 @@ import {
   DocumentText1,
   HeartSearch,
   LampCharge,
-  MedalStar,
   PenAdd,
   People,
   PercentageCircle,
-  Profile2User,
   SearchNormal1,
   Setting2,
   ShieldSearch,
@@ -18,6 +16,8 @@ import {
   StatusUp,
   WalletSearch,
 } from "iconsax-react";
+import Link from "next/link";
+import Button from "../components/Button";
 
 export default function ServicesPage() {
   return (
@@ -315,6 +315,18 @@ export default function ServicesPage() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="py-20 px-[3%] grid gap-14">
+        <h2 className="headingBig mx-auto lg:text-5xl text-center">
+          Ready to Partner <br /> with Experts?
+        </h2>
+        <Link href="/contact">
+          <Button
+            text="Contact Us"
+            icon={true}
+            className="bg-primary mx-auto h-[50px] lg:h-[56px] gap-5 justify-between text-base text-white flex rounded-full items-center py-3 px-4 min-w-[180px] lg:min-w-[280px]"
+          />
+        </Link>
       </section>
     </main>
   );
