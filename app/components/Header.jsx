@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <div className="px-[5%] py-5 font-clash flex items-center justify-between z-50 fixed top-0 right-0 left-0 bg-white">
       <Link href="/">
-        <Image src="/logo.jpeg" width={60} height={80} alt="logo" />
+        <Image src="/logo.jpeg" width={60} height={40} alt="logo" />
       </Link>
       <div className="lg:flex text-lg items-center gap-7 hidden">
         {NavLinks.map((link, i) => (
