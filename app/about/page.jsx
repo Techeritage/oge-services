@@ -1,19 +1,51 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function AboutUsPage() {
+  const { ref: textRef, inView: textInView } = useInView({
+    threshold: 0.3, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
+
+  const { ref: boxRef, inView: boxInView } = useInView({
+    threshold: 0.4, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
+
+  const { ref: boxRef2, inView: boxInView2 } = useInView({
+    threshold: 0.3, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
+
   return (
-    <main className="pb-20 mt-[88px]">
-      <section className="flex flex-col lg:flex-row lg:items-center justify-between px-[3%] py-10 lg:py-20">
-        <div className="relative mb-5 lg:mb-0">
-          <h1 className="headingBig pl-5">
+    <main className="pb-20 mt-[88px] overflow-x-hidden">
+      <section
+        ref={textRef}
+        className="flex flex-col lg:flex-row lg:items-center justify-between px-[3%] py-10 lg:py-20"
+      >
+        <div
+          className={`animate__animated ${
+            textInView
+              ? "animate__backInDown visible-after-animation"
+              : "hidden-before-animation"
+          } relative mb-5 lg:mb-0`}
+        >
+          <h1 className={`headingBig pl-5`}>
             About our <br />
             company
           </h1>
           <span className="w-[2px] top-[10px] absolute h-[50px] bg-primary"></span>
         </div>
         <div>
-          <p className="max-w-[600px] text-sm lg:text-base">
+          <p
+            className={`animate__animated ${
+              textInView
+                ? "animate__bounceInRight visible-after-animation"
+                : "hidden-before-animation"
+            } max-w-[600px] text-sm lg:text-base`}
+          >
             OGE Professional Services Limited is a wholly-owned indigenous
             company incorporated under Nigeria Laws in the year 2011 with
             registration Number RC 9073903 with the main objective of providing
@@ -24,7 +56,10 @@ export default function AboutUsPage() {
           </p>
         </div>
       </section>
-      <section className="mx-[3%] py-10 lg:py-32 flex items-center flex-col-reverse lg:flex-row gap-10">
+      <section
+        ref={boxRef}
+        className="mx-[3%] py-10 lg:py-32 flex items-center flex-col-reverse lg:flex-row gap-10"
+      >
         <div className="basis-1/2">
           <Image
             className="rounded-2xl lg:rounded-3xl h-[350px] lg:h-[500px] object-top object-cover"
@@ -34,8 +69,14 @@ export default function AboutUsPage() {
             alt="hero image"
           />
         </div>
-        <div className="basis-1/2 grid gap-7 lg:gap-10">
-          <h2 className="heading text-center lg:border-l-2 border-[#c70e10] relative lg:pl-6">
+        <div
+          className={`animate__animated ${
+            boxInView
+              ? "animate__fadeInRight visible-after-animation"
+              : "hidden-before-animation"
+          } basis-1/2 grid gap-7 lg:gap-10`}
+        >
+          <h2 className="heading text-center lg:text-start lg:border-l-2 border-[#c70e10] relative lg:pl-6">
             Our Mission and Vision
             <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
           </h2>
@@ -54,7 +95,14 @@ export default function AboutUsPage() {
           </p>
         </div>
       </section>
-      <section className="px-[3%]">
+      <section
+        ref={boxRef2}
+        className={`px-[3%] animate__animated ${
+          boxInView
+            ? "animate__fadeInUp visible-after-animation"
+            : "hidden-before-animation"
+        }`}
+      >
         <div className="relative">
           <h2 className="heading border-l-2 border-[#c70e10] pl-6 max-w-[600px]">
             The values that shape everything we do at OGE Professional Services

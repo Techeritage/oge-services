@@ -48,7 +48,7 @@ export default function Footer() {
           </h2>
           <div>
             <a
-              className="text-sm w-fit lg:text-base text-white font-clashmd mb-3 flex items-center gap-1"
+              className="hidden text-sm w-fit lg:text-base text-white font-clashmd mb-3 items-center gap-1"
               href="mailto:mails@championlogistics.org.ng"
             >
               mails@championlogistics.org.ng{" "}
@@ -56,15 +56,15 @@ export default function Footer() {
             <div className="grid">
               <a
                 className="text-sm w-fit lg:text-base text-white font-clashmd"
-                href="tel:+2348186536416"
+                href="tel:+2348132445878"
               >
-                +234 (0)818 653 6416
+                +234 (0)813 244 5878
               </a>
               <a
                 className="text-sm w-fit lg:text-base text-white font-clashmd"
-                href="tel:+2348033204203"
+                href="tel:+2348033737184"
               >
-                +234 (0)803 320 4203
+                +234 (0)803 373 7184
               </a>
             </div>
           </div>

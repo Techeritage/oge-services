@@ -33,7 +33,7 @@ export default function ServicesPage() {
   });
 
   return (
-    <main className="min-h-[100vh] py-20 px-[3%] pt-[150px]">
+    <main className="min-h-[100vh] overflow-x-hidden py-20 px-[3%] pt-[150px]">
       <h1
         ref={textRef}
         className={`animate__animated ${
