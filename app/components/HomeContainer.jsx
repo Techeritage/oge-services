@@ -35,7 +35,7 @@ export default function HomeContainer() {
   });
 
   const { ref: ref11, inView: inView11 } = useInView({
-    threshold: 0.1,
+    threshold: 0.2,
     triggerOnce: true,
   });
 
@@ -143,12 +143,10 @@ export default function HomeContainer() {
         </div>
       </section>
 
-      <section
-        ref={ref1}
-        className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-7 lg:gap-y-16 grid lg:grid-cols-3"
-      >
+      <section className="bg-[#f4f4f4]/50 py-20 px-[3%] lg:gap-7 gap-7 lg:gap-y-16 grid lg:grid-cols-3">
         <div className="grid gap-10 lg:gap-0">
           <h2
+            ref={ref1}
             className={`animate__animated ${
               inView1
                 ? "animate__fadeInLeft visible-after-animation"
@@ -245,10 +243,11 @@ export default function HomeContainer() {
           />
         </Link>
       </section>
-      <section ref={boxRef2} className="py-20 px-[3%]">
+      <section className="py-20 px-[3%]">
         <h2
+          ref={boxRef2}
           className={`animate__animated ${
-            inView1
+            boxInView2
               ? "animate__fadeInRight visible-after-animation"
               : "hidden-before-animation"
           } heading text-center relative`}
@@ -305,8 +304,9 @@ export default function HomeContainer() {
           </div>
         </div>
       </section>
-      <section ref={ref11} className="py-20 px-[3%]">
+      <section className="py-20 px-[3%]">
         <h2
+          ref={ref11}
           className={`animate__animated ${
             inView11
               ? "animate__fadeInLeft visible-after-animation"
