@@ -107,11 +107,7 @@ export default function Footer() {
       <div className="pt-10 flex items-center justify-center lg:justify-end bg-primary px-[3%] pb-10">
         <div className="flex gap-3 lg:gap-5 flex-col lg:flex-row items-center">
           <p className="text-white text-xs lg:text-base text-center">
-            &copy; {startYear} - {currentYear} All Rights Reserved. Powered by
-            H&S
-          </p>
-          <p className="text-white text-xs text-center lg:text-base">
-            We shall not be liable for any business with the website
+            &copy; {startYear} - {currentYear} All Rights Reserved.
           </p>
         </div>
       </div>
