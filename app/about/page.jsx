@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutUsPage() {
   return (
-    <main className="pb-20">
+    <main className="pb-20 mt-[88px]">
       <section className="flex flex-col lg:flex-row lg:items-center justify-between px-[3%] py-10 lg:py-20">
         <div className="relative mb-5 lg:mb-0">
           <h1 className="headingBig pl-5">

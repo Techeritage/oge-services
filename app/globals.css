@@ -19,3 +19,12 @@
 .headingBig {
   @apply text-4xl lg:text-[69px] font-clashmd max-w-[90%] lg:max-w-[921px] lg:leading-[80px];
 }
+
+.hidden-before-animation {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.visible-after-animation {
+  opacity: 1;
+}

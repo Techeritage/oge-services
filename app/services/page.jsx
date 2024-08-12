@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Book1,
@@ -18,15 +19,40 @@ import {
 } from "iconsax-react";
 import Link from "next/link";
 import Button from "../components/Button";
+import { useInView } from "react-intersection-observer";
 
 export default function ServicesPage() {
+  const { ref: textRef, inView: textInView } = useInView({
+    threshold: 0.3, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
+
+  const { ref: boxRef, inView: boxInView } = useInView({
+    threshold: 0.4, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
+
   return (
-    <main className="min-h-[100vh] py-20 px-[3%]">
-      <h1 className="headingBig lg:text-5xl text-center mx-auto">
+    <main className="min-h-[100vh] py-20 px-[3%] pt-[150px]">
+      <h1
+        ref={textRef}
+        className={`animate__animated ${
+          textInView
+            ? "animate__backInDown visible-after-animation"
+            : "hidden-before-animation"
+        } headingBig lg:text-5xl text-center mx-auto`}
+      >
         Expert <span className="text-primary">Financial and Business</span>{" "}
         Services for Your Success
       </h1>
-      <p className="lg:max-w-[50%] text-center mx-auto mt-3 text-xs lg:text-sm">
+      <p
+        ref={textRef}
+        className={`animate__animated ${
+          textInView
+            ? "animate__bounceInRight visible-after-animation"
+            : "hidden-before-animation"
+        } lg:max-w-[50%] text-center mx-auto mt-3 text-xs lg:text-sm`}
+      >
         At OGE Services, we provide a comprehensive suite of services designed
         to address all your financial, regulatory, and business management
         needs. Explore our offerings to discover how we can support your
@@ -316,8 +342,14 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-[3%] grid gap-14">
-        <h2 className="headingBig mx-auto lg:text-5xl text-center">
+      <section ref={boxRef} className="py-20 px-[3%] grid gap-14">
+        <h2
+          className={`animate__animated ${
+            boxInView
+              ? "animate__bounceInRight visible-after-animation"
+              : "hidden-before-animation"
+          }  headingBig mx-auto lg:text-5xl text-center`}
+        >
           Ready to Partner <br /> with Experts?
         </h2>
         <Link href="/contact">

@@ -1,10 +1,23 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function ContactPage() {
+  const { ref: textRef, inView: textInView } = useInView({
+    threshold: 0.3, // Adjust threshold as needed
+    triggerOnce: true, // Only trigger the animation once
+  });
   return (
-    <main className="px-[3%] pb-20 min-h-[100vh]">
-      <h2 className="headingBig py-10">
+    <main className="px-[3%] pb-20 pt-[88px] min-h-[100vh]">
+      <h2
+        ref={textRef}
+        className={`animate__animated ${
+          textInView
+            ? "animate__backInDown visible-after-animation"
+            : "hidden-before-animation"
+        } headingBig py-10`}
+      >
         Financial Solutions <br /> Made{" "}
         <span className="text-primary">Efficient</span> <br /> and{" "}
         <span className="text-primary">Effective</span>.
