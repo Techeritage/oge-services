@@ -41,7 +41,7 @@ export default function Header() {
       </div>
       <div className="lg:hidden">
         <button onClick={() => setIsNav(true)} className={`text-base pr-2`}>
-          <HambergerMenu />
+          <HambergerMenu size={35} />
         </button>
       </div>
       {isNav && (
@@ -53,6 +53,7 @@ export default function Header() {
           <div className="grid gap-2">
             {NavLinks2.map((link, i) => (
               <Link
+              onClick={() => setIsNav(false)}
                 key={i}
                 href={link.link}
                 className={`text-2xl font-clash lg:text-base flex items-center gap-1 ${
