@@ -98,7 +98,7 @@ export default function AboutUsPage() {
       <section
         ref={boxRef2}
         className={`px-[3%] animate__animated ${
-          boxInView
+          boxInView2
             ? "animate__fadeInUp visible-after-animation"
             : "hidden-before-animation"
         }`}
