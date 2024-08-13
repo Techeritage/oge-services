@@ -363,6 +363,19 @@ export default function HomeContainer() {
           <div>
             <Image
               className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot10.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Dr. Taiwo Olakunle
+            </p>
+            <p className="lg:text-base text-xs">Chief Operating Officer</p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
               src="/mot5.jpeg"
               width={400}
               height={2000}
@@ -393,21 +406,6 @@ export default function HomeContainer() {
           <div>
             <Image
               className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
-              src="/mot6.jpeg"
-              width={400}
-              height={2000}
-              alt="hero image"
-            />
-            <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Diai David
-            </p>
-            <p className="lg:text-base text-xs">
-              Officer- Research and Technical Services
-            </p>
-          </div>
-          <div>
-            <Image
-              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
               src="/mot7.jpeg"
               width={400}
               height={2000}
@@ -433,6 +431,51 @@ export default function HomeContainer() {
             </p>
             <p className="lg:text-base text-xs">
               Manager- Research and Technical Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot9.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Fasisi Olabisi
+            </p>
+            <p className="lg:text-base text-xs">
+              Assistant Manager - Research and Compliance
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot6.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Diai David
+            </p>
+            <p className="lg:text-base text-xs">
+              Officer- Research and Technical Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
+              src="/mot11.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Jesutobi Oladiran
+            </p>
+            <p className="lg:text-base text-xs">
+              Officer, Audit, Investigation and Forensic Services
             </p>
           </div>
         </div>

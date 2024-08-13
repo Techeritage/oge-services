@@ -27,7 +27,7 @@ export default function ContactPage() {
           <div className="grid gap-1">
             <h3 className="bodyText font-clashmd text-primary">Call us</h3>
             <p className="text-sm lg:text-base">
-              Call out team Monday to Friday 8am - 5pm
+              Call our team Monday to Friday 8am - 5pm
             </p>
           </div>
           <div className="grid gap-1">
