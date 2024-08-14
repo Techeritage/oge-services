@@ -125,7 +125,7 @@ export default function HomeContainer() {
               : "hidden-before-animation"
           } basis-1/2 grid gap-7 lg:gap-3`}
         >
-          <h2 className="heading border-l-2 border-[#c70e10] pl-6">
+          <h2 className="heading border-l-2 border-primary pl-6">
             Discover Excellence <br /> with OGE Professional Services
           </h2>
           <p className="text-sm lg:text-lg">
