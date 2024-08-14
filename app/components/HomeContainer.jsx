@@ -83,9 +83,9 @@ export default function HomeContainer() {
               textInView
                 ? "animate__bounceInRight visible-after-animation"
                 : "hidden-before-animation"
-            } grid lg:gap-7 gap-5 lg:pl-10 lg:border-l-2 border-[#c70e10]`}
+            } grid lg:gap-7 gap-5 lg:pl-10 lg:border-l-2 border-primary`}
           >
-            <p className="text-white bodyText pl-5 lg:pl-0 lg:border-l-0 border-l-2 border-[#c70e10]">
+            <p className="text-white bodyText pl-5 lg:pl-0 lg:border-l-0 border-l-2 border-primary">
               Empowering your financial decisions with <br />
               precision and integrity.
             </p>
