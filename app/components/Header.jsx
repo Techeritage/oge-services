@@ -69,7 +69,7 @@ export default function Header() {
       <Link href="/contact" className="hidden lg:block">
         <Button
           text="Contact us"
-          className="bg-[#c70e10] hover:opacity-50 font-clashmd text-xs lg:text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
+          className="bg-primary hover:opacity-50 font-clashmd text-xs lg:text-base text-white gap-2 flex rounded-full items-center py-3 px-5"
           icon={true}
         />
       </Link>
