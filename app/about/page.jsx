@@ -10,7 +10,7 @@ export default function AboutUsPage() {
   });
 
   const { ref: boxRef, inView: boxInView } = useInView({
-    threshold: 0.4, // Adjust threshold as needed
+    threshold: 0.1, // Adjust threshold as needed
     triggerOnce: true, // Only trigger the animation once
   });
 
@@ -37,11 +37,12 @@ export default function AboutUsPage() {
               : "hidden-before-animation"
           } relative mb-5 lg:mb-0`}
         >
-          <h1 className={`headingBig pl-5`}>
+          <h1 className={`headingBig text-center lg:text-start mx-auto w-fit lg:pl-5 relative`}>
             About our <br />
             company
+            <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
           </h1>
-          <span className="w-[2px] top-[10px] absolute h-[50px] bg-primary"></span>
+          <span className="w-[2px] hidden lg:block top-[10px] absolute h-[50px] bg-primary"></span>
         </div>
         <div>
           <p
@@ -62,7 +63,11 @@ export default function AboutUsPage() {
         </div>
       </section>
       <section ref={boxRef} className="px-[3%] py-10 lg:py-20 w-[100%]">
-        <div className="w-[45%] float-left mr-10">
+        <h2 className="heading lg:hidden mb-5 text-center lg:text-start relative lg:pl-6">
+          Meet Our CEO
+          <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
+        </h2>
+        <div className="lg:w-[45%] w-[60%] mr-5 float-left lg:mr-10">
           <Image
             className="rounded-2xl lg:rounded-3xl h-[350px] lg:h-[500px] object-top object-cover"
             src="/mot1.jpg"
@@ -78,11 +83,11 @@ export default function AboutUsPage() {
               : "hidden-before-animation"
           } float lg:pt-10`}
         >
-          <h2 className="heading mb-5 text-center lg:text-start relative lg:pl-6">
+          <h2 className="heading hidden lg:block mb-5 text-center lg:text-start relative lg:pl-6">
             Meet Our CEO
             <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
           </h2>
-          <p className="text-sm lg:text-lg">
+          <p className="text-sm lg:text-lg pt-7">
             <span className="font-clashmd">Prof. Oyedokun</span> is a
             multi-talented and multidisciplinary scholar-practitioner of good
             repute with over 23 years of experience. He is a forensic
@@ -167,7 +172,7 @@ export default function AboutUsPage() {
           </p>
         </div>
       </section>
-      <section ref={boxRef3} className="mx-[3%] py-10 lg:py-32">
+      <section ref={boxRef3} className="mx-[3%] py-16 lg:py-32">
         <div
           className={`animate__animated ${
             boxInView3
@@ -175,11 +180,11 @@ export default function AboutUsPage() {
               : "hidden-before-animation"
           } grid gap-7 lg:gap-10`}
         >
-          <h2 className="heading text-center relative lg:pl-6">
+          <h2 className="heading text-center relative">
             Our Mission and Vision
             <span className="absolute top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
           </h2>
-          <div className="mx-auto max-w-[80%] border p-3">
+          <div className="mx-auto max-w-[90%] lg:max-w-[80%] border p-3">
             <p className="text-sm lg:text-lg text-center mb-5">
               To be the leading diversified and multidisciplinary provider of
               educational and professional services, delivering exceptional
