@@ -854,7 +854,114 @@ export default function OgePublicationsPage() {
           </h3>
 
           <ol className="list-decimal pl-10 grid gap-2 text-sm lg:text-base">
-            
+            <li>
+              Oyedokun, G. E. & Somoye, R. O. C. (2018). Working capital
+              financing and entrepreneurship growth in Nigeria: An empirical
+              investigation. A paper presented at British Academy of Management
+              32nd Annual Conference hosted by Bristol Business School,
+              University of the West of England 4th - 6th September 2018
+            </li>
+            <li>
+              Oyedokun, G. E. (2018). Any justification for creative accounting:
+              Where are fraud examiners? ACFE African Conference, Johannesburg.
+              1-26
+            </li>
+            <li>
+              Oyedokun, G. E., Micah, E. E. M., & Gimba, J.T. (2020). Effect of
+              Board Attributes on Dividend Policies of Quoted Deposit Money
+              Banks in Nigeria. A paper presented at British Academy of
+              Management BAM2020 Conference at Alliance Manchester Business
+              School, Manchester, United Kingdom, 2-4 September 2020.
+            </li>
+            <li>
+              Hassan, T. A.; Oyedokun, G. E; & Akintoye, I. R. (2018).
+              Environmental taxation: Prospect and challenges in Nigeria. 4th
+              International Academic Conference of the Institute of Chartered
+              Accountants & Covenant University April 18 – 20, 2018.
+            </li>
+            <li>
+              Oyedokun, G. E. & Somoye, R. O. C. (2018). Cash management and
+              entrepreneurship growth in Nigeria. Conference Proceedings, 7th
+              National Conference on Managing National Economic Recovery,
+              Faculty of Administration, Nasarawa State University, Keffi, Vol.
+              1., 141-154 July 2018
+            </li>
+            <li>
+              Olota, O. O, Aun, I. I. & Oyedokun, G. E. (2017). Human resource
+              strategy and production Management. Conference Proceedings, 7th
+              National Conference on Managing National Economic Recovery,
+              Faculty of Administration, Nasarawa State University, Keffi, Vol.
+              I1, 59-72, July 2018
+            </li>
+            <li>
+              Umar-Dauda, S. L. & Oyedokun, G. E. (2018). Impact assessment of
+              tax audit on tax compliance: A case study of Katsina State Board
+              of Internal Revenue. CITN/NSUK 1st International Academic
+              Conference on Taxation, Nasarawa State University, Keffi, August
+              13-16, 2018
+            </li>
+            <li>
+              Oyedokun, G. E.; Enyi, P. E., & Dada, S. O. (2018). Forensic
+              accounting techniques and integrity of financial statement.
+              Conference Proceedings, 7th National Conference on Managing
+              National Economic Recovery, Faculty of Administration, Nasarawa
+              State University, Keffi, Vol. I1, 1-19. July 2018
+            </li>
+            <li>
+              Jaji, K. A., & Oyedokun, G. E. (2019). Cross-border expansion and
+              financial performance of West Africa and East Africa banks
+              operating in Uganda (2010-2016). Ist International Conference on
+              Business and Governance. Faculty of Management Sciences,
+              University of Lagos, Nigeria, May 8-10, 2019
+            </li>
+            <li>
+              Tiamiyu, M. A. & Oyedokun, G. E. (2019). Impact of Audit Evidence
+              and opinion on audit reporting quality. Being paper presented at
+              the 1st International Conference on Business and Governance,
+              organized by the Faculty of Management Sciences, University of
+              Lagos, May 8-10, 2019
+            </li>
+            <li>
+              Usman, S. & Oyedokun, G. E. (2019). Adoption of Treasury Single
+              Account in Nigeria: Review of the Implementation Process. Book of
+              Abstracts, 2nd CITN International Academic Conference on Taxation,
+              August 18 – 20, 2019 held at Babcock University, Ilishan-Remo,
+              Nigeria
+            </li>
+            <li>
+              Ahmed, S. & Oyedokun, G. E. (2019). Forensic Accounting and Fraud
+              Prevention: A Conceptual Review. Book of Abstracts, 2nd CITN
+              International Academic Conference on Taxation, August 18 – 20,
+              2019 held at Babcock University, Ilishan-Remo, Nigeria
+            </li>
+            <li>
+              Umar, D., Dandago, K.I & Oyedokun, G. E. (2019). Case Study-Based
+              Research in Accounting: A Review of the Extant Literature. Book of
+              Abstracts, 2nd CITN International Academic Conference on Taxation,
+              August 18 – 20, 2019 held at Babcock University, Ilishan-Remo,
+              Nigeria
+            </li>
+            <li>
+              Akodu, A. E, Buraimoh, W. D., Oyekale, P., Oyedokun, G. E &
+              Ajayi-Owoeye, A.O. (2019). Taxation in a Digitalized Economy. Book
+              of Abstracts, 2nd CITN International Academic Conference on
+              Taxation, August 18 – 20, 2019 held at Babcock University,
+              Ilishan-Remo, Nigeria
+            </li>
+            <li>
+              Buraimoh, W. D., Oyekale, P. J, Ajayi-Owoeye, A.O, Akodu, A. E. &
+              Oyedokun, G. E. (2019). Non-Oil Tax Revenue and Economic Growth in
+              Nigeria. Book of Abstracts, 2nd CITN International Academic
+              Conference on Taxation, August 18 – 20, 2019 held at Babcock
+              University, Ilishan-Remo, Nigeria
+            </li>
+            <li>
+              Tiamiyu, M. A., & Oyedokun, G. E. (2019). Public sector auditing
+              and integrity of government financial reporting in Nigeria.
+              International Conference of Public Administration, Department of
+              Public Administration, Nasarawa State University, Keffi November
+              18-20, 2019
+            </li>
           </ol>
         </div>
       </div>
