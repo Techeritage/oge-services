@@ -17,8 +17,7 @@ export default function OgePublicationsPage() {
             : "hidden-before-animation"
         } headingBig lg:text-5xl text-center mx-auto`}
       >
-        Expert <span className="text-primary">Financial and Business</span>{" "}
-        Services for Your Success
+        Welcome to <span className="text-primary">OGE Publications</span>{" "}
       </h1>
     </main>
   );

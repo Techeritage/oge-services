@@ -10,12 +10,16 @@ const NavLinks = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/about" },
   { title: "Services", link: "/services" },
+  { title: "Oge Books", link: "/oge-books" },
+  { title: "Oge Publications", link: "/oge-publications" },
 ];
 const NavLinks2 = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/about" },
   { title: "Services", link: "/services" },
   { title: "Contact Us", link: "/contact" },
+  { title: "Oge Books", link: "/oge-books" },
+  { title: "Oge Publications", link: "/oge-publications" },
 ];
 
 export default function Header() {
@@ -53,7 +57,7 @@ export default function Header() {
           <div className="grid gap-2">
             {NavLinks2.map((link, i) => (
               <Link
-              onClick={() => setIsNav(false)}
+                onClick={() => setIsNav(false)}
                 key={i}
                 href={link.link}
                 className={`text-2xl font-clash lg:text-base flex items-center gap-1 ${
