@@ -382,10 +382,10 @@ export default function HomeContainer() {
               alt="hero image"
             />
             <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Mrs. Mulikat Adeyemi
+              Mulikat Adeyemi
             </p>
             <p className="lg:text-base text-xs">
-              Senior Managers, Audit, Investigation and Forensic Services
+              Senior Manager, Audit, Investigation and Forensic Services
             </p>
           </div>
           <div>
@@ -400,7 +400,7 @@ export default function HomeContainer() {
               Mayowa Oyedokun
             </p>
             <p className="lg:text-base text-xs">
-              Manager- Research and Technical Services
+              Senior Manager- Research and Technical Services
             </p>
           </div>
           <div>
@@ -415,7 +415,7 @@ export default function HomeContainer() {
               Temitayo Adesumboye
             </p>
             <p className="lg:text-base text-xs">
-              Manager- Regulatory Services and Compliance
+              Senior Manager- Regulatory Services and Compliance
             </p>
           </div>
           <div>
@@ -430,7 +430,7 @@ export default function HomeContainer() {
               Sunday Ighaede,
             </p>
             <p className="lg:text-base text-xs">
-              Manager- Research and Technical Services
+              Senior Manager- Research and Technical Services
             </p>
           </div>
           <div>
@@ -445,7 +445,7 @@ export default function HomeContainer() {
               Fasisi Olabisi
             </p>
             <p className="lg:text-base text-xs">
-              Assistant Manager - Research and Compliance
+              Manager - Research and Compliance
             </p>
           </div>
           <div>
@@ -460,7 +460,7 @@ export default function HomeContainer() {
               Diai David
             </p>
             <p className="lg:text-base text-xs">
-              Officer- Research and Technical Services
+              Manager- Research and Technical Services
             </p>
           </div>
           <div>
@@ -475,7 +475,7 @@ export default function HomeContainer() {
               Jesutobi Oladiran
             </p>
             <p className="lg:text-base text-xs">
-              Officer, Audit, Investigation and Forensic Services
+              Manager, Audit, Investigation and Forensic Services
             </p>
           </div>
         </div>

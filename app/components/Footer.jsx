@@ -66,6 +66,12 @@ export default function Footer() {
               >
                 +234 (0)803 373 7184
               </a>
+              <a
+                className="text-sm w-fit lg:text-base text-white font-clashmd"
+                href="tel:+234 805 586 3944"
+              >
+                +234 (0)805 586 3944
+              </a>
             </div>
           </div>
         </div>

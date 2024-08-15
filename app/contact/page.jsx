@@ -43,6 +43,12 @@ export default function ContactPage() {
             >
               +234 (0)803 373 7184
             </a>
+            <a
+              className="text-base text-black font-clashmd"
+              href="tel:+234 805 586 3944"
+            >
+              +234 (0)805 586 3944
+            </a>
           </div>
         </div>
         <div className="hidden gap-5">
@@ -85,17 +91,55 @@ export default function ContactPage() {
           <div className="grid gap-2">
             <h3 className="bodyText font-clashmd text-primary">Visit us</h3>
             <p className="text-sm lg:text-base">
-              Chat with us in person at out Lagos HQ
+              Meet with us in person at any of our offices.
             </p>
           </div>
-          <div className="grid gap-1">
-            <a
-              className="text-base max-w-[280px] lg:max-w-[342px] text-black font-clashmd flex items-center gap-1"
-              href="https://www.google.com/maps/place/15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State."
-            >
-              15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State.
-              <Image src="/arrow3.svg" width={20} height={20} alt="arrow" />
-            </a>
+          <div className="grid gap-4">
+            <div className="grid gap-1">
+              <p className="text-primary bodyText">Lagos Office</p>
+              <a
+                className="text-base max-w-[320px] lg:max-w-[440px] text-black font-clashmd flex items-center gap-1"
+                href="https://www.google.com/maps/place/15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State."
+              >
+                15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos
+                State.
+                <Image src="/arrow3.svg" width={20} height={20} alt="arrow" />
+              </a>
+            </div>
+
+            <div className="grid gap-1">
+              <p className="text-primary bodyText">Ibadan Office</p>
+              <div className="grid gap-2">
+                <a
+                  className="text-base max-w-[320px] lg:max-w-[440px] text-black font-clashmd flex items-center gap-1"
+                  href="https://www.google.com/maps/place/15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State."
+                >
+                  2nd Floor, No 93, UI-Ojoo Road, Opposite UI International
+                  Conference Centre, University of Ibadan Second Gate, Ibadan,
+                  Oyo State, Nigeria
+                  <Image src="/arrow3.svg" width={20} height={20} alt="arrow" />
+                </a>
+                <a
+                  className="text-base max-w-[320px] lg:max-w-[440px] text-black font-clashmd flex items-center gap-1"
+                  href="https://www.google.com/maps/place/15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State."
+                >
+                  No. 48 Ogunleye Avenue, off Joyce ‘B’ Road, Oke-Ado, Ibadan,
+                  Oyo State, Nigeria
+                  <Image src="/arrow3.svg" width={20} height={20} alt="arrow" />
+                </a>
+              </div>
+            </div>
+
+            <div className="grid gap-1">
+              <p className="text-primary bodyText">Akute Office</p>
+              <a
+                className="text-base max-w-[320px] lg:max-w-[440px] text-black font-clashmd flex items-center gap-1"
+                href="https://www.google.com/maps/place/15, Isheri Road, Avis Bus Stop, Aguda, Ogba - Ikeja, Lagos State."
+              >
+                14 Timoni Street, Off Ishasi Road, Akute, Ogun State, Nigeria
+                <Image src="/arrow3.svg" width={20} height={20} alt="arrow" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
