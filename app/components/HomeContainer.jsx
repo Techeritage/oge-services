@@ -328,7 +328,31 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Prof. Godwin Oyedokun
             </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              BSc. (Acct. Ed), BSc (Fin.), MBA (Acct. & Fin.), MSc. (Acct.),
+              MSc. (Bus &Econs), MSc. (Fin), MSc. (Econs), Ph.D. (Acct), Ph.D.
+              (Fin), Ph.D. (FA)...
+            </p>
+
             <p className="lg:text-base text-xs">Founder/Principal Partner</p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/person3.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Chief (Mrs). Oyedokun Esther
+            </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              ND, B.Sc, M.Sc (Bus), ADFAFI, ACFE, FFAR
+            </p>
+            <p className="lg:text-base text-xs">
+              Executive Director and Vice Chairman, OGE Group
+            </p>
           </div>
           <div>
             <Image
@@ -363,31 +387,36 @@ export default function HomeContainer() {
           <div>
             <Image
               className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
-              src="/mot10.jpeg"
-              width={400}
-              height={2000}
-              alt="hero image"
-            />
-            <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Dr. Taiwo Olakunle
-            </p>
-            <p className="lg:text-base text-xs">Chief Operating Officer</p>
-          </div>
-          <div>
-            <Image
-              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
               src="/mot5.jpeg"
               width={400}
               height={2000}
               alt="hero image"
             />
             <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Mulikat Adeyemi
+              Adeyemi Mulikat
             </p>
-            <p className="lg:text-base text-xs">
-              Senior Manager, Audit, Investigation and Forensic Services
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, M.Sc (Acct), FCA, CCrFA, ADFAFI, FFAR
             </p>
+            <p className="lg:text-base text-xs">Principal Manager</p>
           </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot10.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Dr. Olakunle Taiwo Oyetope
+            </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, M.Sc (Econs), PhD, CNA, CCrFA, ADFAFI, ACFE, FFAR
+            </p>
+            <p className="lg:text-base text-xs">Chief Operating Officer</p>
+          </div>
+
           <div>
             <Image
               className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
@@ -399,8 +428,11 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Mayowa Oyedokun
             </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, M.Sc (Psy), ADFAFI, FFAR
+            </p>
             <p className="lg:text-base text-xs">
-              Senior Manager- Research and Technical Services
+              Senior Manager, Research, and Regulatory Services
             </p>
           </div>
           <div>
@@ -413,6 +445,9 @@ export default function HomeContainer() {
             />
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Temitayo Adesumboye
+            </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, M.Sc (Econs), ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">
               Senior Manager- Regulatory Services and Compliance
@@ -444,8 +479,29 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Fasisi Olabisi
             </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Ed, M.Ed, ADFAFI, FFAR
+            </p>
             <p className="lg:text-base text-xs">
-              Manager - Research and Compliance
+              Manager, Research and Compliance
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
+              src="/person2.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Oyedokun Dolapo
+            </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, M.Sc (Mass), M.Sc (Int), ADFAFI, ACFE, FFAR
+            </p>
+            <p className="lg:text-base text-xs">
+              Director, Corporate Communication and Strategic Research
             </p>
           </div>
           <div>
@@ -459,8 +515,11 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Diai David
             </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, ADFAFI, FFAR
+            </p>
             <p className="lg:text-base text-xs">
-              Manager- Research and Technical Services
+              Officer, Research and Technical Services
             </p>
           </div>
           <div>
@@ -474,8 +533,29 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Jesutobi Oladiran
             </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              B.Sc, ADFAFI
+            </p>
             <p className="lg:text-base text-xs">
-              Manager, Audit, Investigation and Forensic Services
+              Officer, Accounting and Research 
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
+              src="/person1.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Oyedokun Phillip
+            </p>
+            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+              Dip (ICT), AFAR, ACFE, ADFAFI, FFAR
+            </p>
+            <p className="lg:text-base text-xs">
+              Trainee, Accounting and Technical Services
             </p>
           </div>
         </div>
