@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -19,8 +20,18 @@ export default function OgeBookPage() {
       >
         Overview of <span className="text-primary">Oge Books/Monographs</span>{" "}
       </h1>
-      <div className='py-14'>
-        <h3 className='text-base lg:text-lg font-clashmd mb-4'>Authored Books</h3>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mt-10">
+        <Image src="/book1.jpeg" width={200} height={200} alt="books cover" />
+        <Image src="/book2.jpeg" width={200} height={200} alt="books cover" />
+        <Image src="/book3.jpeg" width={200} height={200} alt="books cover" />
+        <Image src="/book7.jpeg" width={200} height={200} alt="books cover" />
+        <Image src="/book5.jpeg" width={200} height={200} alt="books cover" />
+        <Image src="/book9.jpeg" width={200} height={200} alt="books cover" />
+      </div>
+      <div className="py-14">
+        <h3 className="text-base lg:text-lg font-clashmd mb-4">
+          Authored Books
+        </h3>
         <ol className="list-decimal pl-5 grid gap-2 text-sm lg:text-base">
           <li>
             <strong>Oyedokun, G. E. (2017).</strong>{" "}
@@ -41,6 +52,44 @@ export default function OgeBookPage() {
             </em>{" "}
             Lagos, Nigeria. ASCO Publishers. ISBN: 978-978-56462-6-9
           </li>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10">
+            <Image
+              src="/book25.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book26.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book27.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book28.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book29.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book30.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+          </div>
           <li>
             <strong>Oyedokun, G. E. (2018).</strong>{" "}
             <em>Fundamentals of Forensic Accounting & Fraud Investigation.</em>{" "}
@@ -107,6 +156,44 @@ export default function OgeBookPage() {
             Lagos, Nigeria. 2nd Edition. OGE Business School Publisher, Lagos.
             Nigeria. ISBN: 978-978-56462-6-9
           </li>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10">
+            <Image
+              src="/book25.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book26.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book27.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book28.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book29.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book30.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+          </div>
           <li>
             <strong>Moloi, T. & Oyedokun, G. (2021).</strong>{" "}
             <em>Enterprise Risk Management and Fraud Examination Processes.</em>{" "}
@@ -217,8 +304,8 @@ export default function OgeBookPage() {
           </li>
         </ol>
       </div>
-      <div className='py-14'>
-        <h3 className='text-base lg:text-lg font-clashmd mb-4'>Edited Books</h3>
+      <div className="py-14">
+        <h3 className="text-base lg:text-lg font-clashmd mb-4">Edited Books</h3>
         <ol className="list-decimal pl-5 grid gap-2 text-sm lg:text-base">
           <li>
             <strong>

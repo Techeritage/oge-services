@@ -35,7 +35,7 @@ export default function Header() {
           <Link
             key={i}
             href={link.link}
-            className={`text-base font-clashmd ${
+            className={`text-base hover:text-primary font-clashmd ${
               pathName === link.link ? "text-primary" : ""
             }`}
           >

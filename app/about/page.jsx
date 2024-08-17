@@ -37,7 +37,9 @@ export default function AboutUsPage() {
               : "hidden-before-animation"
           } relative mb-5 lg:mb-0`}
         >
-          <h1 className={`headingBig text-center lg:text-start mx-auto w-fit lg:pl-5 relative`}>
+          <h1
+            className={`headingBig text-center lg:text-start mx-auto w-fit lg:pl-5 relative`}
+          >
             About our <br />
             company
             <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
@@ -64,7 +66,7 @@ export default function AboutUsPage() {
       </section>
       <section ref={boxRef} className="px-[3%] py-10 lg:py-20 w-[100%]">
         <h2 className="heading lg:hidden mb-5 text-center lg:text-start relative lg:pl-6">
-          Meet Our CEO
+          Meet Our Founder and <br />Chairman of the Board of Directors
           <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
         </h2>
         <div className="lg:w-[45%] w-[60%] mr-5 float-left lg:mr-10">
@@ -84,7 +86,7 @@ export default function AboutUsPage() {
           } float lg:pt-10`}
         >
           <h2 className="heading hidden lg:block mb-5 text-center lg:text-start relative lg:pl-6">
-            Meet Our CEO
+            Meet Our Founder and <br />Chairman of the Board of Directors
             <span className="absolute lg:hidden top-[-10px] left-[50%] translate-x-[-50%] w-7 h-[2px] bg-primary"></span>
           </h2>
           <p className="text-sm lg:text-lg pt-7">
