@@ -304,28 +304,69 @@ export default function OgeBookPage() {
           </li>
         </ol>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10">
-            <Image
-              src="/book15.jpeg"
-              width={400}
-              height={200}
-              alt="books cover"
-            />
-            <Image
-              src="/book16.jpeg"
-              width={400}
-              height={200}
-              alt="books cover"
-            />
-            <Image
-              src="/book18.jpeg"
-              width={400}
-              height={200}
-              alt="books cover"
-            />
-          </div>
+          <Image
+            src="/book15.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book16.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book18.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image src="/book4.jpeg" width={400} height={200} alt="books cover" />
+          <Image src="/book6.jpeg" width={400} height={200} alt="books cover" />
+          <Image
+            src="/book18.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+        </div>
       </div>
       <div className="py-14">
         <h3 className="text-base lg:text-lg font-clashmd mb-4">Edited Books</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mt-10">
+          <Image src="/book8.jpeg" width={400} height={200} alt="books cover" />
+          <Image
+            src="/book10.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book11.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book12.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book13.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+          <Image
+            src="/book14.jpeg"
+            width={400}
+            height={200}
+            alt="books cover"
+          />
+        </div>
         <ol className="list-decimal pl-5 grid gap-2 text-sm lg:text-base">
           <li>
             <strong>
