@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ogeprofessionals.com
+
+# Sitemaps
+Sitemap: https://www.ogeprofessionals.com/sitemap.xml
