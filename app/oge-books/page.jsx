@@ -158,37 +158,37 @@ export default function OgeBookPage() {
           </li>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10">
             <Image
-              src="/book25.jpeg"
+              src="/book19.jpeg"
               width={400}
               height={200}
               alt="books cover"
             />
             <Image
-              src="/book26.jpeg"
+              src="/book20.jpeg"
               width={400}
               height={200}
               alt="books cover"
             />
             <Image
-              src="/book27.jpeg"
+              src="/book21.jpeg"
               width={400}
               height={200}
               alt="books cover"
             />
             <Image
-              src="/book28.jpeg"
+              src="/book22.jpeg"
               width={400}
               height={200}
               alt="books cover"
             />
             <Image
-              src="/book29.jpeg"
+              src="/book23.jpeg"
               width={400}
               height={200}
               alt="books cover"
             />
             <Image
-              src="/book30.jpeg"
+              src="/book24.jpeg"
               width={400}
               height={200}
               alt="books cover"
