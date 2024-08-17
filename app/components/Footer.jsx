@@ -72,6 +72,30 @@ export default function Footer() {
               >
                 +234 (0)805 586 3944
               </a>
+              <a
+                className="text-sm w-fit lg:text-base text-white font-clashmd"
+                href="mailto:info@ogeprofessionals.com"
+              >
+                info@ogeprofessionals.com
+              </a>
+              <a
+                className="text-sm w-fit lg:text-base text-white font-clashmd"
+                href="mailto:info@oyedokungodwin.com"
+              >
+                info@oyedokungodwin.com
+              </a>
+              <a
+                className="text-sm w-fit lg:text-base text-white font-clashmd"
+                href="mailto:ogebsng@gmail.com "
+              >
+                ogebsng@gmail.com
+              </a>
+              <a
+                className="text-sm w-fit lg:text-base text-white font-clashmd"
+                href="mailto:ogeprofessionals@gmail.com"
+              >
+                ogeprofessionals@gmail.com
+              </a>
             </div>
           </div>
         </div>
