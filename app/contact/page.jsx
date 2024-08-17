@@ -51,6 +51,40 @@ export default function ContactPage() {
             </a>
           </div>
         </div>
+        <div className="grid gap-5">
+          <div className="grid gap-1">
+            <h3 className="bodyText font-clashmd text-primary">Chat with us</h3>
+            <p className="text-sm lg:text-base">
+              Have questions or need assistance? Send us an email
+            </p>
+          </div>
+          <div className="grid gap-1">
+            <a
+              className="text-base text-black font-clashmd"
+              href="mailto:info@ogeprofessionals.com"
+            >
+              info@ogeprofessionals.com
+            </a>
+            <a
+              className="text-base text-black font-clashmd"
+              href="mailto:info@oyedokungodwin.com"
+            >
+              info@oyedokungodwin.com
+            </a>
+            <a
+              className="text-base text-black font-clashmd"
+              href="mailto:ogebsng@gmail.com "
+            >
+              ogebsng@gmail.com
+            </a>
+            <a
+              className="text-base text-black font-clashmd"
+              href="mailto:ogeprofessionals@gmail.com"
+            >
+              ogeprofessionals@gmail.com
+            </a>
+          </div>
+        </div>
         <div className="hidden gap-5">
           <div className="grid gap-1">
             <h3 className="bodyText font-clashmd text-primary">Chat with us</h3>
