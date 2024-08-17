@@ -303,6 +303,26 @@ export default function OgeBookPage() {
             Business School Publisher, Lagos. Nigeria. ISBN: 978-978-768-411-5
           </li>
         </ol>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10">
+            <Image
+              src="/book15.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book16.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+            <Image
+              src="/book18.jpeg"
+              width={400}
+              height={200}
+              alt="books cover"
+            />
+          </div>
       </div>
       <div className="py-14">
         <h3 className="text-base lg:text-lg font-clashmd mb-4">Edited Books</h3>
