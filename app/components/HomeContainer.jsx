@@ -328,7 +328,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Prof. Godwin Oyedokun
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               BSc. (Acct. Ed), BSc (Fin.), MBA (Acct. & Fin.), MSc. (Acct.),
               MSc. (Bus &Econs), MSc. (Fin), MSc. (Econs), Ph.D. (Acct), Ph.D.
               (Fin), Ph.D. (FA)...
@@ -347,7 +347,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Chief (Mrs). Oyedokun Esther
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               ND, B.Sc, M.Sc (Bus), ADFAFI, ACFE, FFAR
             </p>
             <p className="lg:text-base text-xs">
@@ -365,6 +365,12 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Dr. Titilayo Fowokan
             </p>
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
+              NCE, B,Ed, BSc (Acct), LLM, MSc. (Acct.), MSc. (Fin), Ph.D. (FA),
+              CICA, CFA, CFE, CIPFA, CPFA, CertIFR, ACS, ACIS, FCA, FCTI, FCNA,
+              FCFIP, FFAR, FCCrFA, FCCFI, CFIHArm, FTPL, JP
+            </p>
+
             <p className="lg:text-base text-xs">
               Partner- Tax and Forensics Services
             </p>
@@ -380,8 +386,46 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Dr. Emeke Nwabuzor
             </p>
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
+              HND, BSc (Acct), MSc. (Acct.), MSc. (Fin), Ph.D. (FA), CFE, CIPFA,
+              CertIFR, FCA, FCTI, FCNA, FFAR, FCCrFA, FCCFI, CFIHArm, FTPL
+            </p>
             <p className="lg:text-base text-xs">
               Partner- Audit and Tax Services
+            </p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
+              src="/mot10.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Dr. Olakunle Taiwo Oyetope
+            </p>
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
+              B.Sc, M.Sc (Econs), PhD, CNA, CCrFA, ADFAFI, ACFE, FFAR
+            </p>
+            <p className="lg:text-base text-xs">Chief Operating Officer</p>
+          </div>
+          <div>
+            <Image
+              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
+              src="/person2.jpeg"
+              width={400}
+              height={2000}
+              alt="hero image"
+            />
+            <p className="capitalize text-sm lg:text-lg font-clashmd">
+              Oyedokun Dolapo
+            </p>
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
+              B.Sc, M.Sc (Mass), M.Sc (Int), ADFAFI, ACFE, FFAR
+            </p>
+            <p className="lg:text-base text-xs">
+              Director, Corporate Communication and Strategic Research
             </p>
           </div>
           <div>
@@ -395,28 +439,11 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Adeyemi Mulikat
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, M.Sc (Acct), FCA, CCrFA, ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">Principal Manager</p>
           </div>
-          <div>
-            <Image
-              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
-              src="/mot10.jpeg"
-              width={400}
-              height={2000}
-              alt="hero image"
-            />
-            <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Dr. Olakunle Taiwo Oyetope
-            </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
-              B.Sc, M.Sc (Econs), PhD, CNA, CCrFA, ADFAFI, ACFE, FFAR
-            </p>
-            <p className="lg:text-base text-xs">Chief Operating Officer</p>
-          </div>
-
           <div>
             <Image
               className="rounded-2xl h-[350px] lg:h-[300px] mb-1 lg:rounded-3xl object-cover"
@@ -428,7 +455,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Mayowa Oyedokun
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, M.Sc (Psy), ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">
@@ -446,7 +473,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Temitayo Adesumboye
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, M.Sc (Econs), ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">
@@ -464,6 +491,9 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Sunday Ighaede,
             </p>
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
+              B.Tech., MSc., ADFAFI, MNIM, FFAR
+            </p>
             <p className="lg:text-base text-xs">
               Senior Manager- Research and Technical Services
             </p>
@@ -479,29 +509,11 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Fasisi Olabisi
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Ed, M.Ed, ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">
               Manager, Research and Compliance
-            </p>
-          </div>
-          <div>
-            <Image
-              className="rounded-2xl h-[350px] lg:h-[300px] mb-1 object-top lg:rounded-3xl object-cover"
-              src="/person2.jpeg"
-              width={400}
-              height={2000}
-              alt="hero image"
-            />
-            <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Oyedokun Dolapo
-            </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
-              B.Sc, M.Sc (Mass), M.Sc (Int), ADFAFI, ACFE, FFAR
-            </p>
-            <p className="lg:text-base text-xs">
-              Director, Corporate Communication and Strategic Research
             </p>
           </div>
           <div>
@@ -515,7 +527,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Diai David
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">
@@ -533,7 +545,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Jesutobi Oladiran
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, ADFAFI
             </p>
             <p className="lg:text-base text-xs">
@@ -551,7 +563,7 @@ export default function HomeContainer() {
             <p className="capitalize text-sm lg:text-lg font-clashmd">
               Oyedokun Phillip
             </p>
-            <p className="text-xs font-clashmd text-gray-500 lg:text-sm">
+            <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               Dip (ICT), AFAR, ACFE, ADFAFI, FFAR
             </p>
             <p className="lg:text-base text-xs">

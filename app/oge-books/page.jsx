@@ -18,7 +18,7 @@ export default function OgeBookPage() {
             : "hidden-before-animation"
         } headingBig lg:text-5xl text-center mx-auto`}
       >
-        Overview of <span className="text-primary">Oge Books/Monographs</span>{" "}
+        Overview of <span className="text-primary">OGE Books/Monographs</span>{" "}
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mt-10">
         <Image src="/book1.jpeg" width={200} height={200} alt="books cover" />

@@ -10,16 +10,16 @@ const NavLinks = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/about" },
   { title: "Services", link: "/services" },
-  { title: "Oge Books", link: "/oge-books" },
-  { title: "Oge Publications", link: "/oge-publications" },
+  { title: "OGE Books", link: "/oge-books" },
+  { title: "OGE Publications", link: "/oge-publications" },
 ];
 const NavLinks2 = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/about" },
   { title: "Services", link: "/services" },
   { title: "Contact Us", link: "/contact" },
-  { title: "Oge Books", link: "/oge-books" },
-  { title: "Oge Publications", link: "/oge-publications" },
+  { title: "OGE Books", link: "/oge-books" },
+  { title: "OGE Publications", link: "/oge-publications" },
 ];
 
 export default function Header() {
