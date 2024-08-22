@@ -345,7 +345,7 @@ export default function HomeContainer() {
               alt="hero image"
             />
             <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Chief (Mrs). Oyedokun Esther
+              Chief (Mrs). Oluwabunmi Esther Oyedokun
             </p>
             <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               ND, B.Sc, M.Sc (Bus), ADFAFI, ACFE, FFAR
@@ -471,7 +471,7 @@ export default function HomeContainer() {
               alt="hero image"
             />
             <p className="capitalize text-sm lg:text-lg font-clashmd">
-              Temitayo Adesumboye
+              Temitayo Adesunmiboye
             </p>
             <p className="text-xs font-clashmd text-black/90 truncate lg:text-xs">
               B.Sc, M.Sc (Econs), ADFAFI, FFAR
